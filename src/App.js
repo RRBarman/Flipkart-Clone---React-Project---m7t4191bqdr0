@@ -12,6 +12,7 @@ import Cart from "./Components/cart/Cart";
 import DetailView from "./Components/details/DetailView";
 import Shipping from "./Components/shipping/Shipping";
 import Context from "./context/Context";
+import Footer from "./Components/footer/Footer";
 
 //=======================================function starts=======================================
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/shipping" element={<Shipping />} />
           </Routes>
         </Box>
+        <Footer />
       </Router>
     </Context>
   );
